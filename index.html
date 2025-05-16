@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official portfolio website of Akshay Bhardwaj Vlogs - Capturing life's beautiful moments through travel, lifestyle, and storytelling.">
+    <meta name="keywords" content="Akshay Bhardwaj, Travel Vlogger, Lifestyle Content, YouTube Creator, India">
+    <meta name="author" content="Akshay Bhardwaj">
+
+    <!-- SEO Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://akshaybhardwajvlogs.com">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Akshay Bhardwaj Vlogs - Travel & Lifestyle Content Creator">
+    <meta property="og:description" content="Join me on a journey through life's beautiful moments. Travel vlogs, lifestyle content, and storytelling.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://akshaybhardwajvlogs.com">
+    <meta property="og:image" content="assets/profile.jpg">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Akshay Bhardwaj Vlogs - Travel & Lifestyle Content Creator">
+    <meta name="twitter:description" content="Join me on a journey through life's beautiful moments. Travel vlogs, lifestyle content, and storytelling.">
+    <meta name="twitter:image" content="assets/profile.jpg">
+
+    <title>Akshay Bhardwaj Vlogs - Travel & Lifestyle Content Creator</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Akshay Bhardwaj",
+      "url": "https://akshaybhardwajvlogs.com",
+      "sameAs": [
+        "https://youtube.com/@akshaybhardwajj?si=C4XU5BgMQ9Jkkuff",
+        "https://www.instagram.com/__akshay028?igsh=NHlidmgxNjFpcjFx",
+        "https://www.snapchat.com/add/akshay.in18?share_id=j4hE1uAx4j4&locale=en-GB",
+        "https://x.com/__akshay028?t=rXOGbOgosD7MaXSH8FtuQQ&s=09"
+      ]
+    }
+    </script>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">Akshay Bhardwaj Vlogs</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#vlogs">Vlogs</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+              <h1>Akshay Bhardwaj</h1>
+            <p class="tagline">Capturing essance of Life, One Vlog at a Time</p>
+            <a href="https://youtube.com/@akshaybhardwajj?si=C4XU5BgMQ9Jkkuff" class="subscribe-btn" target="_blank" rel="noopener">
+           
+                <i class="fab fa-youtube"></i> Subscribe
+            
+            </a>
+        </div>
+        <div class="hero-overlay"></div>
+            <video autoplay muted loop id="background-video" class="background-video">
+            <source src="file:///C:/Users/sharm/Downloads/8733059-hd_1920_1080_30fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about reveal">
+        <div class="about-content">
+            <div class="profile-image">
+                <img src="assets/img 1.jpg" alt="Akshay Bhardwaj" loading="lazy">
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hey there! I'm Akshay, a passionate travel and lifestyle content creator. Through my lens, I capture the essence of different cultures, breathtaking landscapes, and authentic stories that inspire and connect people worldwide.</p>
+                <div class="social-links">
+                    <a href="https://youtube.com/@akshaybhardwajj?si=C4XU5BgMQ9Jkkuff" target="_blank" class="youtube" rel="noopener"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/__akshay028?igsh=NHlidmgxNjFpcjFx" target="_blank" class="instagram" rel="noopener"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.snapchat.com/add/akshay.in18?share_id=j4hE1uAx4j4&locale=en-GB" target="_blank" class="snapchat" rel="noopener"><i class="fab fa-snapchat-ghost"></i></a>
+                    <a href="https://x.com/__akshay028?t=rXOGbOgosD7MaXSH8FtuQQ&s=09" target="_blank" class="twitter" rel="noopener"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Vlogs Section -->
+    <section id="vlogs" class="vlogs reveal">
+        <h2>Latest Vlogs</h2>
+        <div class="vlogs-grid">
+            <!-- Video cards will be added dynamically via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription Section -->
+    <section id="newsletter" class="newsletter reveal">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form id="newsletter-form" class="newsletter-form">
+            <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Enter your email" required>
+            <button type="submit" class="subscribe-btn">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Social Media Feeds Section -->
+    <section id="social-feeds" class="social-feeds reveal">
+        <h2>Follow Me on Social Media</h2>
+        <div class="social-feed instagram-feed">
+            <h3>Instagram</h3>
+            <div class="feed-placeholder">Instagram feed will be embedded here.</div>
+        </div>
+        <div class="social-feed twitter-feed">
+            <h3>Twitter</h3>
+            <div class="feed-placeholder">Twitter feed will be embedded here.</div>
+        </div>
+        <div class="social-feed youtube-feed">
+            <h3>YouTube</h3>
+            <div class="feed-placeholder">YouTube feed will be embedded here.</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact reveal">
+        <h2>Get In Touch</h2>
+        <form id="contact-form" class="contact-form">
+            <div class="form-group">
+                <input type="text" id="name" name="name" required>
+                <label for="name">Name</label>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" required></textarea>
+                <label for="message">Message</label>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Floating CTA Button (Mobile) -->
+    <div class="floating-cta">
+        <a href="#contact">Let's Connect</a>
+    </div>
+
+    <!-- Thank You Popup -->
+    <div class="thank-you-popup" id="thankYouPopup">
+        <div class="popup-content">
+            <h3>Thank You!</h3>
+            <p>Your message has been sent successfully. I'll get back to you soon!</p>
+            <button class="close-popup">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
